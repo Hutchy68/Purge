@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Horacewai2\r * @author Waihorace\r * @author Wrightbus\r */\r"
+		]
+	},
+	"purge": "清除",
+	"descriptionmsg": "新增一個清空快取的按鈕到所有頁面"
+}

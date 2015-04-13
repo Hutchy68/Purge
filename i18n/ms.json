@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia\r */\r"
+		]
+	},
+	"purge": "singkirkan",
+	"descriptionmsg": "Membubuh tab singkirkan pada semua laman biasa untuk mempercepat penyingkiran cache"
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie\r * @author Pietrodn\r */\r"
+		]
+	},
+	"purge": "purga",
+	"descriptionmsg": "Aggiunge un tab \"purga\" su tutte le pagine normali, permettendo uno svuotamento rapido della cache"
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gzdavidwong\r */\r"
+		]
+	},
+	"purge": "清除",
+	"descriptionmsg": "新增一个清空快取的按钮到所有页面"
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Masz\r */\r"
+		]
+	},
+	"purge": "nulstil cachen",
+	"descriptionmsg": "Tilføjer et 'tøm cachen-faneblad' til alle normale sider, og gør det muligt for anonyme brugere, ikke at skulle bekræfte tømningen."
+}

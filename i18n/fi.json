@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crt\r * @author Str4nd\r */\r"
+		]
+	},
+	"purge": "tyhjennä välimuisti",
+	"descriptionmsg": "Lisää välimuistin tyhjennysvälilehden kaikille tavallisille sivuille mahdollistaen välimuistin nopean tyhjennyksen."
+}

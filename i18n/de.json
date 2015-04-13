@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln\r * @author Raimond Spekking\r */\r"
+		]
+	},
+	"purge": "Cache leeren",
+	"descriptionmsg": "Ergänzt den Reiter „Purge“, der die schnelle Löschung des Seitencaches ermöglicht"
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño\r * @author Xosé\r */\r"
+		]
+	},
+	"purge": "Limpar",
+	"descriptionmsg": "Engade a lapela \"Limpar\" en todas as páxinas normais, permitindo unha purga rápida da caché"
+}

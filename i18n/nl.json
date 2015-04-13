@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"SPQRobin\r * @author Siebrand\r */\r"
+		]
+	},
+	"purge": "cache legen",
+	"descriptionmsg": "Voegt een tabblad \"cache legen\" toe op alle normale pagina's zodat de cache snel gepurged kan worden"
+}

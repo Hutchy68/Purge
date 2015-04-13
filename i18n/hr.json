@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ex13\r * @author SpeedyGonsales\r */\r"
+		]
+	},
+	"purge": "očisti cache",
+	"descriptionmsg": "Dodaje očisti cache karticu na svim običnim stranicama, te zaobilazi provjeru cache-a za anonimne suradnike omogućavajući brzo brisanje memoriranih stranicu u pregledniku"
+}

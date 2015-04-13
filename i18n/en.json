@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ævar Arnfjörð Bjarmason\r */\r"
+		]
+	},
+	"purge": "Purge",
+	"descriptionmsg": "Adds a purge tab on all normal pages allowing for quick purging of the cache"
+}

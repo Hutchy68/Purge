@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko\r * @author Purodha\r * @author Siebrand\r * @author The Evil IP address\r */\r"
+		]
+	},
+	"purge": "{{Identical|Purge}}",
+	"descriptionmsg": "{{desc}} \"purge\" refers to {{msg-mw|purge}}."
+}

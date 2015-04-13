@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin\r * @author Irwangatot\r * @author IvanLanin\r */\r"
+		]
+	},
+	"purge": "Bersihkan",
+	"descriptionmsg": "Menambahkan tab pembersihan pada semua halaman normal dan meloloskan halangan bagi pengguna anonim untuk melakukan pembersihan cepat singgahan"
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie\r * @author Sanbec\r */\r"
+		]
+	},
+	"purge": "purgar",
+	"descriptionmsg": "Añade una pestaña de purgado en todas las páginas normales permitiendo el purgado rápido de la caché"
+}

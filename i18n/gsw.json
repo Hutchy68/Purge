@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Chlämens\r * @author Als-Holder\r */\r"
+		]
+	},
+	"purge": "Cache lääre",
+	"descriptionmsg": "Ergänzt de Ryter „Purge“, wo e schnälli Cache-Leschig mögli macht."
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"M.M.S.\r * @author WikiPhoenix\r */\r"
+		]
+	},
+	"purge": "rensa",
+	"descriptionmsg": "Lägger till en flik för rensning på alla vanliga sidor, vilket gör att cachen kan rensas snabbare"
+}

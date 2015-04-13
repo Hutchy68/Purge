@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mormegil\r */\r"
+		]
+	},
+	"purge": "obnovit",
+	"descriptionmsg": "Přidává na všechny běžné stránky záložku pro obnovení, čímž umožňuje rychlé obnovení cache"
+}

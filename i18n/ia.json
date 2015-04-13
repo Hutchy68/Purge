@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie\r */\r"
+		]
+	},
+	"purge": "purgar",
+	"descriptionmsg": "Adde un scheda \"purgar\" in tote le paginas normal, permittente un purga rapide del cache"
+}

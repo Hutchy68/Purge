@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo.mps\r * @author McDutchie\r */\r"
+		]
+	},
+	"purge": "purgar",
+	"descriptionmsg": "Adiciona uma aba para purgar em todas as páginas normais, permitindo um purga rápida da cache"
+}

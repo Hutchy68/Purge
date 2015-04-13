@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko\r * @author Grondin\r */\r"
+		]
+	},
+	"purge": "purger",
+	"descriptionmsg": "Ajoute un onglet «Purger» sur toutes les pages normales, permettant une purge rapide du cache"
+}

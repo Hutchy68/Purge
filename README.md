@@ -8,7 +8,7 @@ Download and upload the zip file to `/extensions` and extract. Rename directory 
 
 `require_once ('$IP/extensions/Purge/Purge.php');`
 
-Control the ability by user group to purge content. eg `['*']` would allow anyone, `['user']` or `['sysop']` would only allow sysops.
+Control the ability by user group to purge content. eg `['*']` would allow anyone, `['user']` allows only users or `['sysop']` would only allow sysops.
 
 `$wgGroupPermissions['{a user group}']['purge'] = true; # delete the cache of a page`
 

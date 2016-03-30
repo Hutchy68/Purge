@@ -25,7 +25,7 @@ $wgExtensionCredits['other'][] = array(
     'url' => 'https://github.com/Hutchy68/Purge', 
     'descriptionmsg' => 'descriptionmsg',
     'version'  => '1.0.0',
-    'license-name' => "License",
+    'license-name' => "GPL-2.0+",
 );
 
 $wgMessagesDirs['Purge'] = __DIR__ . '/i18n';

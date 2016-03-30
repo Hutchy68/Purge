@@ -5,5 +5,5 @@
 		]
 	},
 	"purge": "purger",
-	"descriptionmsg": "Ajoute un onglet «Purger» sur toutes les pages normales, permettant une purge rapide du cache"
+	"descriptionmsg": "Ajoute un onglet «Purger» sur toutes les pages permettant un nettoyage rapide du cache."
 }

@@ -10,7 +10,7 @@
  *  Updated by Tom Hutchison to use proper i18n json files
  *  Changed extension hook to SkinTemplateNavigation
  *  Fixed ExtensionCredits to use the preferred descriptionmg
- *  version 1.0.0
+ *  version 1.0.1
  */
 
 if( !defined( 'MEDIAWIKI' ) ) {
@@ -22,9 +22,9 @@ $wgExtensionCredits['other'][] = array(
     'path' => __FILE__,
     'name' => 'Purge',
     'author' => 'Tom Hutchison', 
-    'url' => 'https://github.com/Hutchy68/Purge', 
+    'url' => 'https://www.mediawiki.org/wiki/Extension:Purge',
     'descriptionmsg' => 'descriptionmsg',
-    'version'  => '1.0.0',
+    'version'  => '1.0.1',
     'license-name' => "GPL-2.0+",
 );
 

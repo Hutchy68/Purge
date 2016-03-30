@@ -1,0 +1,8 @@
+## Version 1.0.1
+
+* Update to purge.php
+* Link back to Mediawiki.org extension page.
+* Version bump to 1.0.1
+
+## Version 1.0.0
+* Initial release

@@ -36,19 +36,19 @@ $wgHooks['SkinTemplateNavigation'][] = 'PurgeActionExtension::contentHook';
 class PurgeActionExtension{
 	public static function contentHook( $skin, array &$content_actions ) {
 		global $wgRequest, $wgUser;
-			// Use getRelevantTitle if present so that this will work on some special pages
-			$title = method_exists( $skin, 'getRelevantTitle' ) ?
-				$skin->getRelevantTitle() : $skin->getTitle();
-			if ( $title->getNamespace() !== NS_SPECIAL && $wgUser->isAllowed( 'purge' ) ) {
-				$action = $wgRequest->getText( 'action' );
-	
+		// Use getRelevantTitle if present so that this will work on some special pages
+		$title = method_exists( $skin, 'getRelevantTitle' ) ?
+			$skin->getRelevantTitle() : $skin->getTitle();
+		if ( $title->getNamespace() !== NS_SPECIAL && $wgUser->isAllowed( 'purge' ) ) {
+			$action = $wgRequest->getText( 'action' );
+
 			$content_actions['actions']['purge'] = array(
-			'class' => $action === 'purge' ? 'selected' : false,
-			'text' => wfMsg( 'purge' ),
-			'href' => $title->getLocalUrl( 'action=purge' )
-				);
-					}
-	
-			return true;
-				}
+				'class' => $action === 'purge' ? 'selected' : false,
+				'text' => wfMessage( 'purge' )->text(),
+				'href' => $title->getLocalUrl( 'action=purge' )
+			);
 		}
+
+		return true;
+	}
+}

@@ -1,54 +1,53 @@
 <?php
 /**
- * An extension that adds a purge tab on each page
+ * The Purge extension to MediaWiki allows to for purging the page cache via a tab button.
  *
- * @author Ævar Arnfjörð Bjarmason <avarab@gmail.com>
- * @copyright Copyright © 2005, Ævar Arnfjörð Bjarmason
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
- * 
- *  This is a fork of the original  see https://www.mediawiki.org/wiki/Extension:Purge
- *  Updated by Tom Hutchison to use proper i18n json files
- *  Changed extension hook to SkinTemplateNavigation
- *  Fixed ExtensionCredits to use the preferred descriptionmg
- *  version 1.0.1
+ * @link https://www.mediawiki.org/wiki/Extension:Purge Documentation
+ * @link https://www.mediawiki.org/wiki/Extension_talk:Purge Support
+ * @link https://github.com/Hutchy68/Purge.git Source Code
+ *
+ * @file
+ * @ingroup Extensions
+ * @package MediaWiki
+ *
+ * @version 1.0.2 2016-04-22
+ *
+ * @author Ævar Arnfjörð Bjarmason
+ * @author Tom Hutchison (Hutchy68)
+ * @author Karsten Hoffmeyer (kghbln)
+ *
+ * @copyright Copyright (C) 2005, Ævar Arnfjörð Bjarmason
+ *
+ * @license https://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
+// Ensure that the script cannot be executed outside of MediaWiki
 if( !defined( 'MEDIAWIKI' ) ) {
 	echo( "This file is an extension to the MediaWiki software and cannot be used standalone.\n" );
 	die( 1 );
 }
 
+// Register extension with MediaWiki
 $wgExtensionCredits['other'][] = array(
-    'path' => __FILE__,
-    'name' => 'Purge',
-    'author' => 'Tom Hutchison', 
-    'url' => 'https://www.mediawiki.org/wiki/Extension:Purge',
-    'descriptionmsg' => 'descriptionmsg',
-    'version'  => '1.0.1',
-    'license-name' => "GPL-2.0+",
+	'path' => __FILE__,
+	'name' => 'Purge',
+	'author' => array (
+		'Ævar Arnfjörð Bjarmason',
+		'Tom Hutchison',
+		'...'
+	),
+	'url' => 'https://www.mediawiki.org/wiki/Extension:Purge',
+	'descriptionmsg' => 'descriptionmsg',
+	'version'  => '1.0.2',
+	'license-name' => 'GPL-2.0+'
 );
 
+// Load extension's class
+$wgAutoloadClasses['PurgeActionExtension'] = __DIR__ . '/Purge.class.php';
+
+// Register extension messages
 $wgMessagesDirs['Purge'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['Purge'] = __DIR__ . '/Purge.i18n.php';
 
-$wgHooks['SkinTemplateNavigation'][] = 'PurgeActionExtension::contentHook';
-
-class PurgeActionExtension{
-	public static function contentHook( $skin, array &$content_actions ) {
-		global $wgRequest, $wgUser;
-		// Use getRelevantTitle if present so that this will work on some special pages
-		$title = method_exists( $skin, 'getRelevantTitle' ) ?
-			$skin->getRelevantTitle() : $skin->getTitle();
-		if ( $title->getNamespace() !== NS_SPECIAL && $wgUser->isAllowed( 'purge' ) ) {
-			$action = $wgRequest->getText( 'action' );
-
-			$content_actions['actions']['purge'] = array(
-				'class' => $action === 'purge' ? 'selected' : false,
-				'text' => wfMessage( 'purge' )->text(),
-				'href' => $title->getLocalUrl( 'action=purge' )
-			);
-		}
-
-		return true;
-	}
-}
+// Register hook
+$wgHooks['SkinTemplateNavigation'][] = 'PurgeActionExtension::onSkinTemplateNavigation';

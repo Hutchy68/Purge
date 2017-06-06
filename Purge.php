@@ -33,6 +33,13 @@ $wgExtensionMessagesFiles['Purge'] = __DIR__ . '/Purge.i18n.php';
 
 $wgHooks['SkinTemplateNavigation'][] = 'PurgeActionExtension::contentHook';
 
+$wgResourceModules['ext.purge'] = [
+	'localBasePath' => __DIR__,
+	'remoteExtPath' => 'Purge',
+	'scripts' => [ 'resources/ext.purge.js' ],
+	'messages' => [ 'purge-failed', ],
+];
+
 class PurgeActionExtension{
 	public static function contentHook( $skin, array &$content_actions ) {
 		global $wgRequest, $wgUser;
@@ -40,6 +47,7 @@ class PurgeActionExtension{
 		$title = method_exists( $skin, 'getRelevantTitle' ) ?
 			$skin->getRelevantTitle() : $skin->getTitle();
 		if ( $title->getNamespace() !== NS_SPECIAL && $wgUser->isAllowed( 'purge' ) ) {
+			$skin->getOutput()->addModules( 'ext.purge' );
 			$action = $wgRequest->getText( 'action' );
 
 			$content_actions['actions']['purge'] = array(

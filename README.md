@@ -6,7 +6,7 @@ Adds a Purge `&action=purge` link tab of regular articles to your MediaWiki Skin
 
 Download and upload the zip file to `/extensions` and extract. Rename directory folder `/Purge-#-#-#` to `/Purge` and add the following to `LocalSettings.php` to enable this extension.
 
-`require_once ('$IP/extensions/Purge/Purge.php');`
+`require_once "$IP/extensions/Purge/Purge.php";`
 
 Control the ability by user group to purge content. eg `['*']` would allow anyone, `['user']` allows only users or `['sysop']` would only allow sysops.
 

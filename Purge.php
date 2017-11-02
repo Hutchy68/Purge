@@ -24,7 +24,7 @@ $wgExtensionCredits['other'][] = array(
     'author' => 'Tom Hutchison', 
     'url' => 'https://www.mediawiki.org/wiki/Extension:Purge',
     'descriptionmsg' => 'descriptionmsg',
-    'version'  => '1.0.1',
+    'version'  => '1.0.2',
     'license-name' => "GPL-2.0+",
 );
 

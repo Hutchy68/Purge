@@ -1,10 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"EugeneZelenko\r * @author Purodha\r * @author Siebrand\r * @author The Evil IP address\r */\r"
+			"EugeneZelenko",
+			"Kghbln",
+			"Purodha",
+			"Siebrand",
+			"The Evil IP address"
 		]
 	},
-	"purge": "{{Identical|Purge}}",
-	"descriptionmsg": "{{desc}} \"purge\" refers to {{msg-mw|purge}}.",
+	"purge": "Displayed as a lable in the action menue.\n{{Identical|Purge}}",
+	"descriptionmsg": "{{desc|name=Purge|url=https://www.mediawiki.org/wiki/Extension:Purge}}\n\"purge\" refers to {{msg-mw|purge}}.",
 	"purge-failed": "Displayed when the POST request to purge did not succeed."
 }

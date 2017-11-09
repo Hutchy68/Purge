@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu\r */\r"
+			"Xuacu\r */\r",
+			"Xuacu"
 		]
 	},
 	"purge": "Purgar",
-	"descriptionmsg": "Amiesta una llingüeta purgar en toles páxines normales que permite la purga rápida de la caché"
+	"descriptionmsg": "Amiesta una llingüeta purgar en toles páxines normales que permite la purga rápida de la caché",
+	"purge-failed": "Falló la purga"
 }

@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Borichèt\r * @author Dragonòt\r */\r"
+			"Borichèt\r * @author Dragonòt\r */\r",
+			"Borichèt"
 		]
 	},
 	"purge": "polida",
-	"descriptionmsg": "A gionta un feuj ëd purga a tute le pàgine normaj an përmëttend na polidada lesta dla memòria local"
+	"descriptionmsg": "A gionta na scheda «Polidé» a tute le pàgine normaj an përmëttend na polidà lesta dla memòria local"
 }

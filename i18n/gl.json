@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño\r * @author Xosé\r */\r"
+			"Toliño\r * @author Xosé\r */\r",
+			"Banjo"
 		]
 	},
 	"purge": "Limpar",
-	"descriptionmsg": "Engade a lapela \"Limpar\" en todas as páxinas normais, permitindo unha purga rápida da caché"
+	"descriptionmsg": "Engade a lapela \"Limpar\" en todas as páxinas normais, permitindo unha purga rápida da caché",
+	"purge-failed": "A purga fallou"
 }

@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"McDutchie\r * @author Sanbec\r */\r"
+			"McDutchie\r * @author Sanbec\r */\r",
+			"Fitoschido"
 		]
 	},
-	"purge": "purgar",
-	"descriptionmsg": "Añade una pestaña de purgado en todas las páginas normales permitiendo el purgado rápido de la caché"
+	"purge": "Purgar",
+	"descriptionmsg": "Añade una pestaña de purgado en todas las páginas normales que permite el purgado rápido de la antememoria",
+	"purge-failed": "Falló el purgado"
 }

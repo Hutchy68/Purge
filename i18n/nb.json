@@ -1,7 +1,5 @@
 {
-	"@metadata": {
-		"authors": []
-	},
+	"@metadata": [],
 	"purge": "gjenoppfrisk",
 	"descriptionmsg": "Legger til en fane for gjenoppfrisking på alle vanlige sider, og slår av gjenoppfriskingssjekken for anonyme brukere, hvilket gjør at mellomlageret kan oppdateres raskere"
 }

@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko\r * @author Grondin\r */\r"
+			"Gomoko\r * @author Grondin\r */\r",
+			"Gomoko"
 		]
 	},
 	"purge": "purger",
-	"descriptionmsg": "Ajoute un onglet «Purger» sur toutes les pages permettant un nettoyage rapide du cache."
+	"descriptionmsg": "Ajoute un onglet «Purger» sur toutes les pages permettant un nettoyage rapide du cache.",
+	"purge-failed": "Échec de la purge"
 }

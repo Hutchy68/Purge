@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman"
+		]
+	},
+	"purge": "শোধন",
+	"purge-failed": "শোধন ব্যর্থ হয়েছে"
+}

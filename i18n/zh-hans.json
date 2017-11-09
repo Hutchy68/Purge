@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gzdavidwong\r */\r"
+			"Gzdavidwong\r */\r",
+			"Liuxinyu970226"
 		]
 	},
-	"purge": "清除",
-	"descriptionmsg": "新增一个清空快取的按钮到所有页面"
+	"purge": "刷新缓存",
+	"descriptionmsg": "在所有普通页面上添加刷新缓存标签，以允许快速刷新缓存",
+	"purge-failed": "刷新失败"
 }

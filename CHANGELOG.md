@@ -1,3 +1,7 @@
+## Version 1.1.0
+
+* Add extension registration.
+
 ## Version 1.0.2
 
 * POST purge link to avoid confirmation

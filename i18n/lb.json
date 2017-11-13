@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby\r */\r"
+			"Robby\r */\r",
+			"Robby"
 		]
 	},
-	"purge": "eidel maachen",
-	"descriptionmsg": "Setzt e \"Purge\" Onglet op all normal Säiten derbäi an erlaabt et fir den Tëschespäicher (Cache) séier eidelzemaachen"
+	"purge": "Eidel maachen",
+	"descriptionmsg": "Setzt e \"Purge\" Onglet op all normal Säiten derbäi an erlaabt et fir den Tëschespäicher (Cache) séier eidelzemaachen",
+	"purge-failed": "Eidel maachen huet net funktionéiert"
 }

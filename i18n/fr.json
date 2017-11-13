@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko\r * @author Grondin\r */\r",
-			"Gomoko"
+			"Gomoko",
+			"Wladek92"
 		]
 	},
 	"purge": "purger",
-	"descriptionmsg": "Ajoute un onglet «Purger» sur toutes les pages permettant un nettoyage rapide du cache.",
+	"descriptionmsg": "Ajoute un onglet «Purger» sur toutes les pages permettant un nettoyage rapide du cache",
 	"purge-failed": "Échec de la purge"
 }

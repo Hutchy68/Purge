@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"SPQRobin\r * @author Siebrand\r */\r"
+			"SPQRobin\r * @author Siebrand\r */\r",
+			"Mar(c)"
 		]
 	},
-	"purge": "cache legen",
+	"purge": "Verversen",
 	"descriptionmsg": "Voegt een tabblad \"cache legen\" toe op alle normale pagina's zodat de cache snel gepurged kan worden"
 }

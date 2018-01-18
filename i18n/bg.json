@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"DCLXVI\r */\r"
+			"DCLXVI\r */\r",
+			"StanProg"
 		]
 	},
-	"purge": "изчистване"
+	"purge": "Почистване"
 }

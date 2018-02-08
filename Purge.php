@@ -25,7 +25,7 @@ $wgExtensionCredits['other'][] = array(
     'url' => 'https://www.mediawiki.org/wiki/Extension:Purge',
     'descriptionmsg' => 'descriptionmsg',
     'version'  => '1.0.2',
-    'license-name' => "GPL-2.0+",
+    'license-name' => 'GPL-2.0-or-later'
 );
 
 $wgMessagesDirs['Purge'] = __DIR__ . '/i18n';

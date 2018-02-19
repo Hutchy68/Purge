@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Horacewai2\r * @author Waihorace\r * @author Wrightbus\r */\r"
+			"Horacewai2\r * @author Waihorace\r * @author Wrightbus\r */\r",
+			"Kly"
 		]
 	},
 	"purge": "清除",
-	"descriptionmsg": "新增一個清空快取的按鈕到所有頁面"
+	"descriptionmsg": "在所有一般頁面上添加清除分頁，來允許快速清除快取",
+	"purge-failed": "清除失敗"
 }

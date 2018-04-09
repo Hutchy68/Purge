@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"BeginaFelicysym\r * @author Sp5uhe\r */\r"
+			"BeginaFelicysym\r * @author Sp5uhe\r */\r",
+			"Railfail536"
 		]
 	},
 	"purge": "wyczyść",
-	"descriptionmsg": "Dodaje zakładkę '''wyczyść''' na wszystkich zwykłych stronach aby szybko wyczyścić pamięć podręczną"
+	"descriptionmsg": "Dodaje zakładkę '''wyczyść''' na wszystkich zwykłych stronach aby szybko wyczyścić pamięć podręczną",
+	"purge-failed": "Odświeżanie nie powiodło się"
 }

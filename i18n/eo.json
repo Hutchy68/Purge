@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Melancholie\r */\r"
+			"Melancholie\r */\r",
+			"KuboF"
 		]
 	},
-	"purge": "forviŝigi"
+	"purge": "forviŝigi",
+	"descriptionmsg": "Aldonas langeton por malplenigo de kaŝmemoro al ĉiuj normalaj paĝoj ebligante rapidan malplenigon de kaŝmemoro",
+	"purge-failed": "Malplenigo de servila kaŝmemoro malsukcesis"
 }

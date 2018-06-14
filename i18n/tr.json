@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Karduelis\r * @author Vito Genovese\r */\r"
+			"Karduelis\r * @author Vito Genovese\r */\r",
+			"Hedda"
 		]
 	},
 	"purge": "Temizle",
-	"descriptionmsg": "Tüm normal sayfalara bir temizleme sekmesi ekler ve anonim kullanıcılar için temizleme kontrolünü geçerek ön belleğin hızlı temizlenmesini sağlar"
+	"descriptionmsg": "Tüm normal sayfalara bir temizleme sekmesi ekler ve anonim kullanıcılar için temizleme kontrolünü geçerek ön belleğin hızlı temizlenmesini sağlar",
+	"purge-failed": "Temizleme başarısız oldu"
 }

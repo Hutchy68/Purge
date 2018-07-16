@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Prima klasy4na\r * @author Тест\r */\r"
+			"Prima klasy4na\r * @author Тест\r */\r",
+			"Piramidion"
 		]
 	},
 	"purge": "очистити",
-	"descriptionmsg": "Додає вкладку очистки на всі звичайні сторінки, що дозволяє швидко очищати кеш"
+	"descriptionmsg": "Додає вкладку очистки на всі звичайні сторінки, що дозволяє швидко очищати кеш",
+	"purge-failed": "Очищення кешу не вдалося"
 }

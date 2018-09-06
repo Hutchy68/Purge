@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fluence\r */\r"
+			"Fluence\r */\r",
+			"Akapochtli"
 		]
 	},
-	"purge": "ticchipāhuāz"
+	"purge": "ticchipāhuāz",
+	"descriptionmsg": "Xicahxilti ce cochiyatl tlen quipohpohuaz mochintin tlahcuilolamameh, intla hueliz mopohpohuaz iciuhca ica antememoria",
+	"purge-failed": "Ahmo omopohpouh"
 }

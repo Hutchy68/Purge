@@ -1,6 +1,6 @@
 ## MediaWiki Purge Extension
 
-Adds a Purge `&action=purge` link tab of regular articles to your MediaWiki Skin allowing quick purging of page caches.
+Adds a Purge `&action=purge` link tab of regular articles to your MediaWiki skin allowing quick purging of page caches.
 
 ### Installation
 
@@ -12,4 +12,4 @@ Control the ability by user group to purge content. eg `['*']` would allow anyon
 
 `$wgGroupPermissions['{a user group}']['purge'] = true; # delete the cache of a page`
 
-See https://www.mediawiki.org/wiki/Manual:Purge for more information about purging a page's cache.
+See https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Purge for more information about purging a page's cache.

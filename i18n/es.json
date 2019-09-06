@@ -7,6 +7,6 @@
 		]
 	},
 	"purge": "Purgar",
-	"descriptionmsg": "Añade una pestaña de purgado en todas las páginas normales que permite el purgado rápido de la caché",
+	"descriptionmsg": "Añade una pestaña de purgado en todas las páginas normales que permite el purgado rápido de la antememoria",
 	"purge-failed": "Falló el purgado"
 }

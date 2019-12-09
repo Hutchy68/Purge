@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"SPQRobin\r * @author Siebrand\r */\r",
-			"Mar(c)"
+			"Mar(c)",
+			"Mainframe98"
 		]
 	},
 	"purge": "Verversen",
-	"descriptionmsg": "Voegt een tabblad \"cache legen\" toe op alle normale pagina's zodat de cache snel gepurged kan worden"
+	"descriptionmsg": "Voegt een tabblad \"cache legen\" toe op alle normale pagina's zodat de cache snel gepurged kan worden",
+	"purge-failed": "Verversen is mislukt"
 }

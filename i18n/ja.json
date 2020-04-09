@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fryed-peach\r * @author Kahusi\r * @author Shirayuki\r */\r",
-			"Afaz"
+			"Afaz",
+			"Fryed-peach\r * @author Kahusi\r * @author Shirayuki\r */\r"
 		]
 	},
 	"purge": "キャッシュを削除",

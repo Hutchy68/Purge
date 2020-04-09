@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Toliño\r * @author Xosé\r */\r",
-			"Banjo"
+			"Banjo",
+			"Toliño\r * @author Xosé\r */\r"
 		]
 	},
 	"purge": "Limpar",

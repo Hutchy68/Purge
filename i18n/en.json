@@ -6,5 +6,6 @@
 	},
 	"purge": "Purge",
 	"descriptionmsg": "Adds a purge tab on all normal pages allowing for quick purging of the cache",
-	"purge-failed": "Purge failed"
+	"purge-failed": "Purge failed",
+	"purge-accesskey": "g"
 }

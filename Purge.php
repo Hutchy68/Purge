@@ -53,6 +53,7 @@ class PurgeActionExtension{
 			$content_actions['actions']['purge'] = array(
 				'class' => $action === 'purge' ? 'selected' : false,
 				'text' => wfMessage( 'purge' )->text(),
+				'accesskey' => wfMessage( 'purge-accesskey' ),
 				'href' => $title->getLocalUrl( 'action=purge' )
 			);
 		}

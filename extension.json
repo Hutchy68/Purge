@@ -1,0 +1,42 @@
+{
+	"name": "Purge",
+	"version": "2.0.0",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Ævar_Arnfjörð_Bjarmason Ævar Arnfjörð Bjarmason]",
+		"[https://www.mediawiki.org/wiki/User:Hutchy68 Tom Hutchison]",
+		"[https://www.mediawiki.org/wiki/User:Samwilson Sam Wilson]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Purge",
+	"descriptionmsg": "purge-descriptionmsg",
+	"license-name": "GPL-2.0+",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
+	"MessagesDirs": {
+		"Purge": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.purge": {
+			"scripts": [
+				"resources/ext.purge.js"
+			],
+			"messages": [
+				"purge-failed"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "Purge"
+	},
+	"AutoloadClasses": {
+		"MediaWiki\\Extension\\Purge\\Hooks": "includes/Hooks.php"
+	},
+	"Hooks": {
+		"SkinTemplateNavigation": "MediaWiki\\Extension\\Purge\\Hooks::onSkinTemplateNavigation"
+	},
+	"manifest_version": 2
+}

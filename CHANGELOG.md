@@ -1,3 +1,8 @@
+## Version 2.0.0
+
+* Add extension registration.
+* Bump major version as it will require MW 1.31+
+
 ## Version 1.0.2
 
 * POST purge link to avoid confirmation

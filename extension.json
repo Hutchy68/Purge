@@ -10,6 +10,9 @@
 	"descriptionmsg": "purge-descriptionmsg",
 	"license-name": "GPL-2.0+",
 	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0"
+	},
 	"MessagesDirs": {
 		"Purge": [
 			"i18n"
@@ -35,5 +38,5 @@
 	"Hooks": {
 		"SkinTemplateNavigation": "MediaWiki\\Extension\\Purge\\Hooks::onSkinTemplateNavigation"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }

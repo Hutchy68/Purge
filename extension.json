@@ -35,5 +35,5 @@
 	"Hooks": {
 		"SkinTemplateNavigation": "MediaWiki\\Extension\\Purge\\Hooks::onSkinTemplateNavigation"
 	},
-	"manifest_version": 2
+	"manifest_version": 1
 }

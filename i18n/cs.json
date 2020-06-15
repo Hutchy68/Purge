@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abijeet Patro",
 			"Mormegil\r */\r"
 		]
 	},
 	"purge": "obnovit",
-	"descriptionmsg": "Přidává na všechny běžné stránky záložku pro obnovení, čímž umožňuje rychlé obnovení cache"
+	"purge-descriptionmsg": "Přidává na všechny běžné stránky záložku pro obnovení, čímž umožňuje rychlé obnovení cache"
 }

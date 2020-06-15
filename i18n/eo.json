@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abijeet Patro",
 			"KuboF",
 			"Melancholie\r */\r"
 		]
 	},
 	"purge": "forviŝigi",
-	"descriptionmsg": "Aldonas langeton por malplenigo de kaŝmemoro al ĉiuj normalaj paĝoj ebligante rapidan malplenigon de kaŝmemoro",
+	"purge-descriptionmsg": "Aldonas langeton por malplenigo de kaŝmemoro al ĉiuj normalaj paĝoj ebligante rapidan malplenigon de kaŝmemoro",
 	"purge-failed": "Malplenigo de servila kaŝmemoro malsukcesis"
 }

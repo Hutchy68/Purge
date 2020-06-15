@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abijeet Patro",
 			"Michawiki\r */\r"
 		]
 	},
 	"purge": "wuprozniś",
-	"descriptionmsg": "Pśidawa rejtark \"wuprozniś\" na wšych normalnych bokach, kótaryž zmóžnja malsne proznjenje cacha"
+	"purge-descriptionmsg": "Pśidawa rejtark \"wuprozniś\" na wšych normalnych bokach, kótaryž zmóžnja malsne proznjenje cacha"
 }

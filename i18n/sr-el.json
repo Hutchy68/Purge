@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abijeet Patro",
 			"Zoranzoki21"
 		]
 	},
 	"purge": "Osveži",
-	"descriptionmsg": "Dodaje jezičak za osvežavanje na svim običnim stranicama i zaobilazi proveru osvežavanja za anonimne korisnike omogućujući brzo pražnjenje keš memorije",
+	"purge-descriptionmsg": "Dodaje jezičak za osvežavanje na svim običnim stranicama i zaobilazi proveru osvežavanja za anonimne korisnike omogućujući brzo pražnjenje keš memorije",
 	"purge-failed": "Osvežavanje nije uspelo"
 }

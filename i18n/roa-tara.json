@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abijeet Patro",
 			"Joetaras",
 			"Joetaras\r */\r"
 		]
 	},
 	"purge": "Sdevache",
-	"descriptionmsg": "Aggiunge 'na tabelle de pulizzie sus a tutte le pàggene normale accussì se pò sdevacà cchiù velocemende 'a cache",
+	"purge-descriptionmsg": "Aggiunge 'na tabelle de pulizzie sus a tutte le pàggene normale accussì se pò sdevacà cchiù velocemende 'a cache",
 	"purge-failed": "Sdevagamende sciute male"
 }

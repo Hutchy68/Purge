@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abijeet Patro",
 			"Kghbln\r * @author Raimond Spekking\r */\r",
 			"Metalhead64"
 		]
 	},
 	"purge": "Cache leeren",
-	"descriptionmsg": "Ergänzt den Reiter „Purge“, der die schnelle Löschung des Seitencaches ermöglicht",
+	"purge-descriptionmsg": "Ergänzt den Reiter „Purge“, der die schnelle Löschung des Seitencaches ermöglicht",
 	"purge-failed": "Leeren des Caches fehlgeschlagen"
 }

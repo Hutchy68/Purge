@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abijeet Patro",
 			"Cedric31\r */\r"
 		]
 	},
 	"purge": "purgar",
-	"descriptionmsg": "Apond un onglet « Purgar » sus totas las paginas normalas e activa sa seleccion pels utilizaires anonims per una purga rapida de l'amagatal."
+	"purge-descriptionmsg": "Apond un onglet « Purgar » sus totas las paginas normalas e activa sa seleccion pels utilizaires anonims per una purga rapida de l'amagatal."
 }

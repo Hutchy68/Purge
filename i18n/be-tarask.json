@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abijeet Patro",
 			"Jim-by\r * @author Wizardist\r */\r",
 			"Red Winged Duck"
 		]
 	},
 	"purge": "ачысьціць",
-	"descriptionmsg": "Дадае закладку ачысткі на ўсе звычайныя старонкі для хуткай ачысткі кэшу",
+	"purge-descriptionmsg": "Дадае закладку ачысткі на ўсе звычайныя старонкі для хуткай ачысткі кэшу",
 	"purge-failed": "Ачыстка не атрымалася"
 }

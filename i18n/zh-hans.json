@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abijeet Patro",
 			"Gzdavidwong\r */\r",
 			"Liuxinyu970226"
 		]
 	},
 	"purge": "刷新缓存",
-	"descriptionmsg": "在所有普通页面上添加刷新缓存标签，以允许快速刷新缓存",
+	"purge-descriptionmsg": "在所有普通页面上添加刷新缓存标签，以允许快速刷新缓存",
 	"purge-failed": "刷新失败"
 }

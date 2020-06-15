@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abijeet Patro",
 			"Harald Khan\r * @author Njardarlogar\r */\r"
 		]
 	},
 	"purge": "oppfrisk",
-	"descriptionmsg": "Legg til ei fana for oppfrisking på alle vanlege sider, og slår av oppfriskingssjekken for anonyme brukarar, noko som gjer at mellomlageret kan verta oppdartert raskare"
+	"purge-descriptionmsg": "Legg til ei fana for oppfrisking på alle vanlege sider, og slår av oppfriskingssjekken for anonyme brukarar, noko som gjer at mellomlageret kan verta oppdartert raskare"
 }

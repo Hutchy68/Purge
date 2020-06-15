@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abijeet Patro",
 			"M.M.S.\r * @author WikiPhoenix\r */\r",
 			"WikiPhoenix"
 		]
 	},
 	"purge": "rensa",
-	"descriptionmsg": "Lägger till en flik för rensning på alla vanliga sidor, vilket gör att cachen kan rensas snabbare",
+	"purge-descriptionmsg": "Lägger till en flik för rensning på alla vanliga sidor, vilket gör att cachen kan rensas snabbare",
 	"purge-failed": "Misslyckades att rensa cachen"
 }

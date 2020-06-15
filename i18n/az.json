@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abijeet Patro",
 			"Sortilegus\r */\r"
 		]
 	},
 	"purge": "təmizlə",
-	"descriptionmsg": "Bütün adi səhifələrə təmizləmə nişanını əlavə edir və keşi tez bir zamanda təmizləməyə imkan verən anonim istifadəçilər üçün təmizləmə yoxlanışını keçirir"
+	"purge-descriptionmsg": "Bütün adi səhifələrə təmizləmə nişanını əlavə edir və keşi tez bir zamanda təmizləməyə imkan verən anonim istifadəçilər üçün təmizləmə yoxlanışını keçirir"
 }

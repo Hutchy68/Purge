@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abijeet Patro",
 			"Anakmalaysia\r */\r"
 		]
 	},
 	"purge": "singkirkan",
-	"descriptionmsg": "Membubuh tab singkirkan pada semua laman biasa untuk mempercepat penyingkiran cache"
+	"purge-descriptionmsg": "Membubuh tab singkirkan pada semua laman biasa untuk mempercepat penyingkiran cache"
 }

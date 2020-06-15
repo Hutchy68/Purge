@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abijeet Patro",
 			"BeginaFelicysym\r * @author Sp5uhe\r */\r",
 			"Rail",
 			"Railfail536"
 		]
 	},
 	"purge": "Odśwież",
-	"descriptionmsg": "Dodaje zakładkę '''{{int:purge-purge}}''' na wszystkich zwykłych stronach aby szybko wyczyścić pamięć podręczną",
+	"purge-descriptionmsg": "Dodaje zakładkę '''{{int:purge-purge}}''' na wszystkich zwykłych stronach aby szybko wyczyścić pamięć podręczną",
 	"purge-failed": "Odświeżanie nie powiodło się"
 }

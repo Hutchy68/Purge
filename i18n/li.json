@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abijeet Patro",
 			"Ooswesthoesbes"
 		]
 	},
 	"purge": "Vernuuj",
-	"descriptionmsg": "Veug e taabblaad \"vernuuj\" tou op alle normaal pagina's zoedet de cache snel kan waere vernuujd",
+	"purge-descriptionmsg": "Veug e taabblaad \"vernuuj\" tou op alle normaal pagina's zoedet de cache snel kan waere vernuujd",
 	"purge-failed": "Vernujing mislök"
 }

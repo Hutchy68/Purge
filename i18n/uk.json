@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Abijeet Patro",
 			"Piramidion",
 			"Prima klasy4na\r * @author Тест\r */\r"
 		]
 	},
 	"purge": "очистити",
-	"descriptionmsg": "Додає вкладку очистки на всі звичайні сторінки, що дозволяє швидко очищати кеш",
+	"purge-descriptionmsg": "Додає вкладку очистки на всі звичайні сторінки, що дозволяє швидко очищати кеш",
 	"purge-failed": "Очищення кешу не вдалося"
 }

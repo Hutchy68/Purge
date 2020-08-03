@@ -3,10 +3,11 @@
 		"authors": [
 			"Abijeet Patro",
 			"Hedda",
-			"Karduelis\r * @author Vito Genovese\r */\r"
+			"Karduelis\r * @author Vito Genovese\r */\r",
+			"MuratTheTurkish"
 		]
 	},
 	"purge": "Temizle",
-	"purge-descriptionmsg": "Tüm normal sayfalara bir temizleme sekmesi ekler ve anonim kullanıcılar için temizleme kontrolünü geçerek ön belleğin hızlı temizlenmesini sağlar",
+	"purge-descriptionmsg": "Tüm normal sayfalara, önbelleğin hızlı bir şekilde boşaltılmasını sağlayan bir temizleme sekmesi ekler",
 	"purge-failed": "Temizleme başarısız oldu"
 }

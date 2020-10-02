@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Abijeet Patro",
-			"Bennylin\r * @author Irwangatot\r * @author IvanLanin\r */\r"
+			"Bennylin\r * @author Irwangatot\r * @author IvanLanin\r */\r",
+			"Daud I.F. Argana"
 		]
 	},
 	"purge": "Bersihkan",
-	"purge-descriptionmsg": "Menambahkan tab pembersihan pada semua halaman normal dan meloloskan halangan bagi pengguna anonim untuk melakukan pembersihan cepat singgahan"
+	"purge-descriptionmsg": "Menambahkan tab pembersihan pada semua halaman normal dan meloloskan halangan bagi pengguna anonim untuk melakukan pembersihan cepat singgahan",
+	"purge-failed": "Pembersihan gagal"
 }

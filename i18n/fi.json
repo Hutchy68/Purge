@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"01miki10",
 			"Abijeet Patro",
 			"Crt\r * @author Str4nd\r */\r"
 		]
 	},
 	"purge": "tyhjennä välimuisti",
-	"purge-descriptionmsg": "Lisää välimuistin tyhjennysvälilehden kaikille tavallisille sivuille mahdollistaen välimuistin nopean tyhjennyksen."
+	"purge-descriptionmsg": "Lisää välimuistin tyhjennysvälilehden kaikille tavallisille sivuille mahdollistaen välimuistin nopean tyhjennyksen.",
+	"purge-failed": "Välimuistin tyhjennys epäonnistui"
 }

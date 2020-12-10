@@ -5,5 +5,7 @@
 			"Fierodelveneto"
 		]
 	},
-	"purge-descriptionmsg": "El xonta on tab \"purga\" so tute łe pajine normałi, faxendo in manjiera de ver on svodamento pì rapido de łe cache memorixae"
+	"purge": "Purgar",
+	"purge-descriptionmsg": "El xonta on tab \"purga\" so tute łe pajine normałi, faxendo in manjiera de ver on svodamento pì rapido de łe cache memorixae",
+	"purge-failed": "Fałia ła purgada"
 }

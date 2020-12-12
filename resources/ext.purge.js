@@ -1,5 +1,5 @@
 
-mw.loader.using( [ 'mediawiki.api', 'mediawiki.notify' ] ).then( function () {
+mw.loader.using( [ 'mediawiki.api' ] ).then( function () {
 
 	$( "#ca-purge a" ).on( 'click', function ( e ) {
 		var postArgs = { action: 'purge', titles: mw.config.get( 'wgPageName' ) };

@@ -22,7 +22,7 @@ class Hooks {
 			$action = $sktemplate->getRequest()->getText( 'action' );
 
 			$links['actions']['purge'] = [
-				'class' => $action === 'purge' ? 'selected' : false,
+				'class' => $action === 'purge-ext' ? 'selected' : false,
 				'text' => wfMessage( 'purge' )->text(),
 				'href' => $title->getLocalUrl( 'action=purge' )
 			];

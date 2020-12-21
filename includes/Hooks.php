@@ -25,8 +25,8 @@ class Hooks {
 				'class' => $action === 'purge' ? 'selected' : false,
 				'text' => wfMessage( 'purge' )->text(),
 				'href' => $title->getLocalUrl( 'action=purge' ),
-            	'title' => wfMessage( 'Tooltip-n-purge-ext' ),
-            	'accesskey' => wfMessage( 'Accesskey-n-purge-ext' )
+            	'title' => wfMessage( 'Tooltip-n-purge-ext' )->text(),
+            	'accesskey' => wfMessage( 'Accesskey-n-purge-ext' )->text()
 			];
 		}
 

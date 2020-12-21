@@ -7,6 +7,6 @@
 	"purge": "Purge cache",
 	"purge-descriptionmsg": "Adds a purge tab on all normal pages allowing for quick purging of the cache",
 	"purge-failed": "Cache Purge failed",
-	"tooltip-n-purge-ext": "Purge cache of the current page",
+	"tooltip-n-purge-ext": "Purge the cache for this page",
 	"accesskey-n-purge-ext": "~"
 }

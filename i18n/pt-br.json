@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Abijeet Patro",
 			"Eduardo Addad de Oliveira",
-			"Eduardo.mps\r * @author McDutchie\r */\r"
+			"Eduardo.mps\r * @author McDutchie\r */\r",
+			"Eduardoaddad"
 		]
 	},
 	"purge": "purgar",

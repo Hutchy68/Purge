@@ -4,7 +4,9 @@
 			"Ævar Arnfjörð Bjarmason\r */\r"
 		]
 	},
-	"purge": "Purge",
+	"purge": "Purge cache",
 	"purge-descriptionmsg": "Adds a purge tab on all normal pages allowing for quick purging of the cache",
-	"purge-failed": "Purge failed"
+	"purge-failed": "Cache Purge failed",
+	"tooltip-n-purge-ext": "Purge the cache for this page",
+	"accesskey-n-purge-ext": "~"
 }

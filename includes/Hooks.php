@@ -21,10 +21,12 @@ class Hooks {
 			$sktemplate->getOutput()->addModules( 'ext.purge' );
 			$action = $sktemplate->getRequest()->getText( 'action' );
 
-			$links['actions']['purge'] = [
+			$links['actions']['purge-ext'] = [
 				'class' => $action === 'purge' ? 'selected' : false,
 				'text' => wfMessage( 'purge' )->text(),
-				'href' => $title->getLocalUrl( 'action=purge' )
+				'href' => $title->getLocalUrl( 'action=purge' ),
+            	'title' => wfMessage( 'Tooltip-n-purge-ext' )->text(),
+            	'accesskey' => wfMessage( 'Accesskey-n-purge-ext' )->text()
 			];
 		}
 

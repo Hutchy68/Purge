@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Renan"
+		]
+	},
+	"purge": "Actualisar",
+	"purge-descriptionmsg": "Addir un bord actualisar in omni págines normal permissent actualisar rapidmen li chache",
+	"purge-failed": "Actualisar fallit"
+}

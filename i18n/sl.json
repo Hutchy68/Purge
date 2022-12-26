@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"purge": "Počisti",
+	"purge-descriptionmsg": "Vsem običajnim stranem doda zavihek »Počisti«, ki omogoča hitro počiščenje predpomnilnika",
+	"purge-failed": "Počiščenje ni uspelo"
+}

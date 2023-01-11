@@ -1,7 +1,7 @@
 
-mw.loader.using( [ 'mediawiki.api', 'mediawiki.notify' ] ).then( function () {
+mw.loader.using( [ 'mediawiki.api' ] ).then( function () {
 
-	$( "#ca-purge a" ).on( 'click', function ( e ) {
+	$( "#ca-purge-ext a" ).on( 'click', function ( e ) {
 		var postArgs = { action: 'purge', titles: mw.config.get( 'wgPageName' ) };
 		new mw.Api().post( postArgs ).then( function () {
 			location.reload();

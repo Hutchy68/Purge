@@ -9,7 +9,9 @@
 			"The Evil IP address"
 		]
 	},
-	"purge": "Displayed as a label in the action menu.\n{{Identical|Purge}}",
+	"purge": "Displayed as a label in the action menu.\n{{Identical|Purge cache}}",
 	"purge-descriptionmsg": "{{desc|name=Purge|url=https://www.mediawiki.org/wiki/Extension:Purge}}\n\"purge\" refers to {{msg-mw|purge}}.",
-	"purge-failed": "Displayed when the POST request to purge did not succeed."
+	"purge-failed": "Displayed when the POST request to purge did not succeed.",
+	"tooltip-n-purge-ext": "Tooltip of the dedicated \"Purge\" action.\n{{Identical|Purge cache}}",
+	"accesskey-n-purge-ext": "{{doc-accesskey}}"
 }

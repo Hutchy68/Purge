@@ -1,3 +1,7 @@
+## Version 3.0.0
+
+* Bump major version as it requires MW 1.35+
+
 ## Version 2.0.0
 
 * Add extension registration.

@@ -12,7 +12,7 @@ class Hooks {
 	 * @param array $links The existing structured navigation links.
 	 * @return bool
 	 */
-	public static function onSkinTemplateNavigation( SkinTemplate &$sktemplate, array &$links ) { 
+	public static function onSkinTemplateNavigationUniversal( SkinTemplate &$sktemplate, array &$links ) {
 		// Use getRelevantTitle if present so that this will work on some special pages
 		$title = method_exists( $sktemplate, 'getRelevantTitle' )
 			? $sktemplate->getRelevantTitle()

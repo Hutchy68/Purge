@@ -36,7 +36,7 @@
 		"MediaWiki\\Extension\\Purge\\Hooks": "includes/Hooks.php"
 	},
 	"Hooks": {
-		"SkinTemplateNavigation": "MediaWiki\\Extension\\Purge\\Hooks::onSkinTemplateNavigation"
+		"SkinTemplateNavigation::Universal": "MediaWiki\\Extension\\Purge\\Hooks::onSkinTemplateNavigationUniversal"
 	},
 	"manifest_version": 2
 }
